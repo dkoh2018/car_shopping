@@ -1,0 +1,2507 @@
+{
+    "Lucid": [
+        {
+            "year": "2025",
+            "model": "Lucid Air",
+            "price": "$69,900"
+        }
+    ],
+    "Subaru": [
+        {
+            "year": "2025",
+            "model": "Subaru Ascent",
+            "price": "$38,910"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru Legacy",
+            "price": "$25,010"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru Impreza",
+            "price": "$23,610"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru Solterra",
+            "price": "$38,495"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru BRZ",
+            "price": "$31,210"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru WRX",
+            "price": "$35,750"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru Outback",
+            "price": "$29,010"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru Crosstrek",
+            "price": "$25,810"
+        },
+        {
+            "year": "2025",
+            "model": "Subaru Forester",
+            "price": "$29,810"
+        }
+    ],
+    "Genesis": [
+        {
+            "year": "2025",
+            "model": "Genesis GV80 Coupe",
+            "price": "$79,950"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis Electrified G80",
+            "price": "$74,875"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis G90",
+            "price": "$89,700"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis GV80",
+            "price": "$58,200"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis G70",
+            "price": "$42,500"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis GV70",
+            "price": "$46,200"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis Electrified GV70",
+            "price": "$66,950"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis GV60",
+            "price": "$52,350"
+        },
+        {
+            "year": "2025",
+            "model": "Genesis G80",
+            "price": "$57,100"
+        }
+    ],
+    "Dodge": [
+        {
+            "year": "2025",
+            "model": "Dodge Durango",
+            "price": "$41,995"
+        },
+        {
+            "year": "2025",
+            "model": "Dodge Charger Daytona",
+            "price": "$57,995"
+        },
+        {
+            "year": "2025",
+            "model": "Dodge Hornet",
+            "price": "$31,740"
+        }
+    ],
+    "Aston_martin": [
+        {
+            "year": "2025",
+            "model": "Aston Martin DB12",
+            "price": "$249,000"
+        },
+        {
+            "year": "2025",
+            "model": "Aston Martin Vanquish",
+            "price": "$427,700"
+        },
+        {
+            "year": "2025",
+            "model": "Aston Martin DBX",
+            "price": "$253,000"
+        },
+        {
+            "year": "2025",
+            "model": "Aston Martin Vantage",
+            "price": "$191,000"
+        }
+    ],
+    "Tesla": [
+        {
+            "year": "2025",
+            "model": "Tesla Model Y",
+            "price": "$44,990"
+        },
+        {
+            "year": "2025",
+            "model": "Tesla Model X",
+            "price": "$79,990"
+        },
+        {
+            "year": "2025",
+            "model": "Tesla Cybertruck",
+            "price": "$79,990"
+        },
+        {
+            "year": "2025",
+            "model": "Tesla Model S",
+            "price": "$79,990"
+        },
+        {
+            "year": "2025",
+            "model": "Tesla Model 3",
+            "price": "$42,490"
+        }
+    ],
+    "Gmc": [
+        {
+            "year": "2025",
+            "model": "GMC HUMMER EV SUV",
+            "price": "$96,550"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Yukon XL",
+            "price": "$69,900"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Sierra 2500",
+            "price": "$46,300"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Canyon",
+            "price": "$38,400"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Terrain",
+            "price": "$30,000"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Savana 3500",
+            "price": "$45,750"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Sierra 3500",
+            "price": "$47,500"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Sierra 1500",
+            "price": "$38,300"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Acadia",
+            "price": "$42,900"
+        },
+        {
+            "year": "2025",
+            "model": "GMC HUMMER EV Pickup",
+            "price": "$96,550"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Sierra EV",
+            "price": "$89,900"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Savana 2500",
+            "price": "$41,800"
+        },
+        {
+            "year": "2025",
+            "model": "GMC Yukon",
+            "price": "$66,900"
+        }
+    ],
+    "Mitsubishi": [
+        {
+            "year": "2025",
+            "model": "Mitsubishi Outlander PHEV",
+            "price": "$40,445"
+        },
+        {
+            "year": "2024",
+            "model": "Mitsubishi Mirage G4",
+            "price": "$17,795"
+        },
+        {
+            "year": "2024",
+            "model": "Mitsubishi Mirage",
+            "price": "$16,695"
+        },
+        {
+            "year": "2025",
+            "model": "Mitsubishi Eclipse Cross",
+            "price": "$26,545"
+        },
+        {
+            "year": "2025",
+            "model": "Mitsubishi Outlander Sport",
+            "price": "$23,745"
+        },
+        {
+            "year": "2024",
+            "model": "Mitsubishi Outlander",
+            "price": "$28,395"
+        }
+    ],
+    "Mini": [
+        {
+            "year": "2024",
+            "model": "MINI SE Hardtop",
+            "price": "$30,900"
+        },
+        {
+            "year": "2024",
+            "model": "MINI Clubman",
+            "price": "$34,050"
+        },
+        {
+            "year": "2025",
+            "model": "MINI Hardtop",
+            "price": "$28,950"
+        },
+        {
+            "year": "2025",
+            "model": "MINI Countryman",
+            "price": "$38,900"
+        },
+        {
+            "year": "2025",
+            "model": "MINI Convertible",
+            "price": "$33,950"
+        }
+    ],
+    "Jaguar": [
+        {
+            "year": "2024",
+            "model": "Jaguar I-PACE",
+            "price": "$72,000"
+        },
+        {
+            "year": "2024",
+            "model": "Jaguar E-PACE",
+            "price": "$49,500"
+        },
+        {
+            "year": "2024",
+            "model": "Jaguar XF",
+            "price": "$49,800"
+        },
+        {
+            "year": "2025",
+            "model": "Jaguar F-PACE",
+            "price": "$57,000"
+        },
+        {
+            "year": "2024",
+            "model": "Jaguar F-TYPE",
+            "price": "$77,900"
+        }
+    ],
+    "Jeep": [
+        {
+            "year": "2025",
+            "model": "Jeep Grand Cherokee 4xe",
+            "price": "$60,490"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Wrangler 4xe",
+            "price": "$50,695"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Grand Cherokee",
+            "price": "$37,035"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Grand Cherokee L",
+            "price": "$39,035"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Wagoneer S",
+            "price": "$65,200"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Wagoneer L",
+            "price": "$62,945"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Grand Wagoneer",
+            "price": "$84,945"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Wrangler",
+            "price": "$32,095"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Gladiator",
+            "price": "$38,100"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Grand Wagoneer L",
+            "price": "$96,450"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Compass",
+            "price": "$26,900"
+        },
+        {
+            "year": "2025",
+            "model": "Jeep Wagoneer",
+            "price": "$59,945"
+        }
+    ],
+    "Toyota": [
+        {
+            "year": "2024",
+            "model": "Toyota Prius",
+            "price": "$27,950"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Corolla Hatchback",
+            "price": "$23,780"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Crown Signia",
+            "price": "$43,590"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Grand Highlander Hybrid",
+            "price": "$44,210"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Highlander",
+            "price": "$39,820"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Highlander Hybrid",
+            "price": "$47,020"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Tundra",
+            "price": "$40,090"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota Prius Prime",
+            "price": "$32,975"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Land Cruiser",
+            "price": "$56,700"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Camry",
+            "price": "$28,700"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota RAV4 Prime",
+            "price": "$43,690"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota Camry Hybrid",
+            "price": "$28,855"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Corolla Cross",
+            "price": "$24,035"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Sequoia",
+            "price": "$62,425"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Corolla Cross Hybrid",
+            "price": "$28,395"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota RAV4 Hybrid",
+            "price": "$32,300"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota RAV4",
+            "price": "$29,250"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota 4Runner",
+            "price": "$40,705"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Tacoma",
+            "price": "$31,590"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Corolla",
+            "price": "$23,825"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Tundra Hybrid",
+            "price": "$58,005"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota GR Supra",
+            "price": "$56,250"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota GR86",
+            "price": "$32,600"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota Venza",
+            "price": "$35,070"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Grand Highlander",
+            "price": "$40,860"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota GR Corolla",
+            "price": "$45,515"
+        },
+        {
+            "year": "2025",
+            "model": "Toyota Crown",
+            "price": "$41,440"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota Sienna",
+            "price": "$37,685"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota Mirai",
+            "price": "$50,190"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota Corolla Hybrid",
+            "price": "$23,500"
+        },
+        {
+            "year": "2024",
+            "model": "Toyota bZ4X",
+            "price": "$43,070"
+        }
+    ],
+    "Vinfast": [
+        {
+            "year": "2025",
+            "model": "VinFast VF 8",
+            "price": "$46,000"
+        },
+        {
+            "year": "2024",
+            "model": "VinFast VF 9",
+            "price": "$79,800"
+        }
+    ],
+    "Polestar": [
+        {
+            "year": "2025",
+            "model": "Polestar 3",
+            "price": "$67,500"
+        },
+        {
+            "year": "2025",
+            "model": "Polestar 4",
+            "price": "$54,900"
+        },
+        {
+            "year": "2025",
+            "model": "Polestar 2",
+            "price": "$64,800"
+        }
+    ],
+    "Infiniti": [
+        {
+            "year": "2024",
+            "model": "INFINITI Q50",
+            "price": "$43,050"
+        },
+        {
+            "year": "2025",
+            "model": "INFINITI QX80",
+            "price": "$82,450"
+        },
+        {
+            "year": "2025",
+            "model": "INFINITI QX60",
+            "price": "$50,200"
+        },
+        {
+            "year": "2025",
+            "model": "INFINITI QX55",
+            "price": "$50,150"
+        },
+        {
+            "year": "2025",
+            "model": "INFINITI QX50",
+            "price": "$43,000"
+        }
+    ],
+    "Ford": [
+        {
+            "year": "2025",
+            "model": "Ford Explorer",
+            "price": "$39,855"
+        },
+        {
+            "year": "2024",
+            "model": "Ford Edge",
+            "price": "$38,465"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Mustang Mach-E",
+            "price": "$36,495"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Bronco",
+            "price": "$37,995"
+        },
+        {
+            "year": "2025",
+            "model": "Ford F-150 Lightning",
+            "price": "$47,780"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Expedition",
+            "price": "$57,025"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Escape PHEV",
+            "price": "$38,400"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Transit-350",
+            "price": "$56,400"
+        },
+        {
+            "year": "2024",
+            "model": "Ford F-450",
+            "price": "$59,455"
+        },
+        {
+            "year": "2025",
+            "model": "Ford F-350",
+            "price": "$46,595"
+        },
+        {
+            "year": "2025",
+            "model": "Ford F-150",
+            "price": "$37,350"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Bronco Sport",
+            "price": "$29,995"
+        },
+        {
+            "year": "2024",
+            "model": "Ford Transit-250",
+            "price": "$48,110"
+        },
+        {
+            "year": "2024",
+            "model": "Ford Transit-150",
+            "price": "$47,165"
+        },
+        {
+            "year": "2025",
+            "model": "Ford E-Transit",
+            "price": "$51,000"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Escape",
+            "price": "$28,150"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Expedition Max",
+            "price": "$61,150"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Maverick",
+            "price": "$26,395"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Mustang",
+            "price": "$31,920"
+        },
+        {
+            "year": "2025",
+            "model": "Ford F-250",
+            "price": "$45,300"
+        },
+        {
+            "year": "2025",
+            "model": "Ford Ranger",
+            "price": "$32,980"
+        }
+    ],
+    "Fiat": [
+        {
+            "year": "2024",
+            "model": "FIAT 500e",
+            "price": "$32,500"
+        }
+    ],
+    "Audi": [
+        {
+            "year": "2024",
+            "model": "Audi RS 3",
+            "price": "$62,300"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A4 allroad",
+            "price": "$47,600"
+        },
+        {
+            "year": "2025",
+            "model": "Audi SQ5",
+            "price": "$58,400"
+        },
+        {
+            "year": "2025",
+            "model": "Audi S7",
+            "price": "$85,700"
+        },
+        {
+            "year": "2025",
+            "model": "Audi S5",
+            "price": "$57,900"
+        },
+        {
+            "year": "2024",
+            "model": "Audi e-tron GT",
+            "price": "$106,500"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q4 e-tron Sportback",
+            "price": "$58,200"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q5 Sportback",
+            "price": "$52,200"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A6 allroad",
+            "price": "$70,500"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A6",
+            "price": "$58,100"
+        },
+        {
+            "year": "2025",
+            "model": "Audi SQ6 e-tron",
+            "price": "$72,900"
+        },
+        {
+            "year": "2025",
+            "model": "Audi SQ8",
+            "price": "$97,600"
+        },
+        {
+            "year": "2025",
+            "model": "Audi RS e-tron GT",
+            "price": "$167,000"
+        },
+        {
+            "year": "2025",
+            "model": "Audi S6",
+            "price": "$75,900"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q7",
+            "price": "$60,500"
+        },
+        {
+            "year": "2025",
+            "model": "Audi S3",
+            "price": "$48,700"
+        },
+        {
+            "year": "2025",
+            "model": "Audi RS Q8",
+            "price": "$136,200"
+        },
+        {
+            "year": "2025",
+            "model": "Audi S8",
+            "price": "$125,300"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q4 e-tron",
+            "price": "$49,800"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q8 e-tron Sportback",
+            "price": "$78,200"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q6 e-tron",
+            "price": "$63,800"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A3",
+            "price": "$38,200"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A8",
+            "price": "$92,000"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A7",
+            "price": "$72,000"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q8",
+            "price": "$74,400"
+        },
+        {
+            "year": "2025",
+            "model": "Audi SQ8 e-tron Sportback",
+            "price": "$93,000"
+        },
+        {
+            "year": "2025",
+            "model": "Audi SQ5 Sportback",
+            "price": "$61,800"
+        },
+        {
+            "year": "2025",
+            "model": "Audi SQ8 e-tron",
+            "price": "$90,200"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A5 Sportback",
+            "price": "$46,300"
+        },
+        {
+            "year": "2025",
+            "model": "Audi RS 7",
+            "price": "$128,600"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q8 e-tron",
+            "price": "$74,800"
+        },
+        {
+            "year": "2025",
+            "model": "Audi S e-tron GT",
+            "price": "$125,500"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q5",
+            "price": "$45,400"
+        },
+        {
+            "year": "2024",
+            "model": "Audi A5",
+            "price": "$48,400"
+        },
+        {
+            "year": "2025",
+            "model": "Audi RS 5",
+            "price": "$79,900"
+        },
+        {
+            "year": "2025",
+            "model": "Audi RS 6 Avant",
+            "price": "$126,600"
+        },
+        {
+            "year": "2025",
+            "model": "Audi SQ7",
+            "price": "$90,800"
+        },
+        {
+            "year": "2025",
+            "model": "Audi S4",
+            "price": "$54,900"
+        },
+        {
+            "year": "2025",
+            "model": "Audi Q3",
+            "price": "$37,400"
+        },
+        {
+            "year": "2025",
+            "model": "Audi A4",
+            "price": "$42,000"
+        }
+    ],
+    "Fisker": [
+        {
+            "year": "2024",
+            "model": "Fisker Ocean",
+            "price": "$38,999"
+        }
+    ],
+    "Lamborghini": [
+        {
+            "year": "2024",
+            "model": "Lamborghini Huracan Tecnica",
+            "price": "$249,865"
+        },
+        {
+            "year": "2024",
+            "model": "Lamborghini Huracan STO",
+            "price": "$344,778"
+        },
+        {
+            "year": "2025",
+            "model": "Lamborghini Urus",
+            "price": "$275,000"
+        },
+        {
+            "year": "2024",
+            "model": "Lamborghini Huracan Sterrato",
+            "price": "$278,972"
+        },
+        {
+            "year": "2024",
+            "model": "Lamborghini Revuelto",
+            "price": "$604,363"
+        },
+        {
+            "year": "2024",
+            "model": "Lamborghini Huracan EVO",
+            "price": "$302,939"
+        }
+    ],
+    "Rivian": [
+        {
+            "year": "2025",
+            "model": "Rivian R1T",
+            "price": "$69,900"
+        },
+        {
+            "year": "2025",
+            "model": "Rivian R1S",
+            "price": "$75,900"
+        }
+    ],
+    "Bentley": [
+        {
+            "year": "2024",
+            "model": "Bentley Bentayga",
+            "price": "$203,200"
+        },
+        {
+            "year": "2024",
+            "model": "Bentley Bentayga Hybrid",
+            "price": "$203,200"
+        },
+        {
+            "year": "2024",
+            "model": "Bentley Bentayga EWB",
+            "price": "$233,700"
+        },
+        {
+            "year": "2024",
+            "model": "Bentley Continental GT",
+            "price": "$242,700"
+        },
+        {
+            "year": "2024",
+            "model": "Bentley Flying Spur Hybrid",
+            "price": "$221,200"
+        },
+        {
+            "year": "2024",
+            "model": "Bentley Flying Spur",
+            "price": "$214,900"
+        }
+    ],
+    "Maserati": [
+        {
+            "year": "2025",
+            "model": "Maserati Grecale",
+            "price": "$76,500"
+        },
+        {
+            "year": "2025",
+            "model": "Maserati Grecale Folgore",
+            "price": "$109,000"
+        },
+        {
+            "year": "2025",
+            "model": "Maserati GranTurismo Folgore",
+            "price": "$192,000"
+        },
+        {
+            "year": "2025",
+            "model": "Maserati GranCabrio Folgore",
+            "price": "$205,000"
+        },
+        {
+            "year": "2024",
+            "model": "Maserati MC20",
+            "price": "$239,000"
+        },
+        {
+            "year": "2024",
+            "model": "Maserati GranTurismo",
+            "price": "$158,000"
+        },
+        {
+            "year": "2024",
+            "model": "Maserati GranCabrio",
+            "price": "$203,000"
+        },
+        {
+            "year": "2024",
+            "model": "Maserati Levante",
+            "price": "$102,000"
+        },
+        {
+            "year": "2024",
+            "model": "Maserati Quattroporte",
+            "price": "$139,000"
+        },
+        {
+            "year": "2024",
+            "model": "Maserati Ghibli",
+            "price": "$109,500"
+        }
+    ],
+    "Land_rover": [
+        {
+            "year": "2025",
+            "model": "Land Rover Range Rover",
+            "price": "$107,900"
+        },
+        {
+            "year": "2025",
+            "model": "Land Rover Range Rover Sport",
+            "price": "$79,700"
+        },
+        {
+            "year": "2025",
+            "model": "Land Rover Discovery Sport",
+            "price": "$48,900"
+        },
+        {
+            "year": "2026",
+            "model": "Land Rover Range Rover Evoque",
+            "price": "$49,900"
+        },
+        {
+            "year": "2026",
+            "model": "Land Rover Range Rover Velar",
+            "price": "$61,600"
+        },
+        {
+            "year": "2025",
+            "model": "Land Rover Discovery",
+            "price": "$60,200"
+        },
+        {
+            "year": "2025",
+            "model": "Land Rover Defender",
+            "price": "$56,900"
+        }
+    ],
+    "Chrysler": [
+        {
+            "year": "2025",
+            "model": "Chrysler Pacifica",
+            "price": "$42,450"
+        },
+        {
+            "year": "2025",
+            "model": "Chrysler Pacifica Hybrid",
+            "price": "$51,055"
+        },
+        {
+            "year": "2025",
+            "model": "Chrysler Voyager",
+            "price": "$39,995"
+        }
+    ],
+    "Buick": [
+        {
+            "year": "2025",
+            "model": "Buick Envista",
+            "price": "$23,700"
+        },
+        {
+            "year": "2025",
+            "model": "Buick Encore GX",
+            "price": "$26,000"
+        },
+        {
+            "year": "2025",
+            "model": "Buick Envision",
+            "price": "$36,500"
+        },
+        {
+            "year": "2025",
+            "model": "Buick Enclave",
+            "price": "$45,000"
+        }
+    ],
+    "Volkswagen": [
+        {
+            "year": "2025",
+            "model": "Volkswagen Jetta GLI",
+            "price": "$32,715"
+        },
+        {
+            "year": "2025",
+            "model": "Volkswagen Taos",
+            "price": "$24,995"
+        },
+        {
+            "year": "2024",
+            "model": "Volkswagen Arteon",
+            "price": "$47,875"
+        },
+        {
+            "year": "2025",
+            "model": "Volkswagen ID. Buzz",
+            "price": "$59,995"
+        },
+        {
+            "year": "2025",
+            "model": "Volkswagen Atlas Cross Sport",
+            "price": "$37,190"
+        },
+        {
+            "year": "2025",
+            "model": "Volkswagen Jetta",
+            "price": "$21,995"
+        },
+        {
+            "year": "2024",
+            "model": "Volkswagen Golf GTI",
+            "price": "$31,965"
+        },
+        {
+            "year": "2024",
+            "model": "Volkswagen Tiguan",
+            "price": "$28,880"
+        },
+        {
+            "year": "2024",
+            "model": "Volkswagen ID.4",
+            "price": "$39,735"
+        },
+        {
+            "year": "2024",
+            "model": "Volkswagen Golf R",
+            "price": "$45,665"
+        },
+        {
+            "year": "2025",
+            "model": "Volkswagen Atlas",
+            "price": "$38,200"
+        }
+    ],
+    "Ram": [
+        {
+            "year": "2025",
+            "model": "RAM ProMaster 3500 EV",
+            "price": "$56,495"
+        },
+        {
+            "year": "2025",
+            "model": "RAM ProMaster 2500",
+            "price": "$49,245"
+        },
+        {
+            "year": "2025",
+            "model": "RAM 1500",
+            "price": "$40,275"
+        },
+        {
+            "year": "2025",
+            "model": "RAM ProMaster 1500",
+            "price": "$44,960"
+        },
+        {
+            "year": "2025",
+            "model": "RAM ProMaster 3500 Window Van",
+            "price": "$61,120"
+        },
+        {
+            "year": "2024",
+            "model": "RAM 1500 Classic",
+            "price": "$38,705"
+        },
+        {
+            "year": "2025",
+            "model": "RAM ProMaster 3500",
+            "price": "$50,285"
+        },
+        {
+            "year": "2025",
+            "model": "RAM 3500",
+            "price": "$46,570"
+        },
+        {
+            "year": "2025",
+            "model": "RAM 2500",
+            "price": "$45,565"
+        },
+        {
+            "year": "2025",
+            "model": "RAM ProMaster 2500 Window Van",
+            "price": "$57,185"
+        }
+    ],
+    "Lotus": [
+        {
+            "year": "2024",
+            "model": "Lotus Emira",
+            "price": "$99,900"
+        },
+        {
+            "year": "2025",
+            "model": "Lotus Eletre",
+            "price": "$107,000"
+        }
+    ],
+    "Mazda": [
+        {
+            "year": "2025",
+            "model": "Mazda CX-90 PHEV",
+            "price": "$49,945"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda CX-50",
+            "price": "$30,300"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda CX-5",
+            "price": "$28,570"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda Mazda3",
+            "price": "$23,950"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda CX-70 PHEV",
+            "price": "$54,400"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda CX-50 Hybrid",
+            "price": "$33,970"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda CX-90",
+            "price": "$37,845"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda CX-30",
+            "price": "$24,995"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda MX-5 Miata RF",
+            "price": "$37,350"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda CX-70",
+            "price": "$40,445"
+        },
+        {
+            "year": "2025",
+            "model": "Mazda MX-5 Miata",
+            "price": "$29,330"
+        }
+    ],
+    "Chevrolet": [
+        {
+            "year": "2025",
+            "model": "Chevrolet Express 2500",
+            "price": "$41,800"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Malibu",
+            "price": "$25,800"
+        },
+        {
+            "year": "2024",
+            "model": "Chevrolet Traverse Limited",
+            "price": "$34,520"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Equinox",
+            "price": "$28,600"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Express 3500",
+            "price": "$45,750"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Equinox EV",
+            "price": "$33,600"
+        },
+        {
+            "year": "2024",
+            "model": "Chevrolet Camaro",
+            "price": "$30,900"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Trailblazer",
+            "price": "$23,100"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Colorado",
+            "price": "$31,900"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Corvette E-Ray",
+            "price": "$106,900"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Silverado 1500",
+            "price": "$37,000"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Suburban",
+            "price": "$61,500"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Blazer",
+            "price": "$35,400"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Tahoe",
+            "price": "$58,500"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Silverado EV",
+            "price": "$55,000"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Traverse",
+            "price": "$40,600"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Silverado 3500",
+            "price": "$46,500"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Blazer EV",
+            "price": "$44,600"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Corvette",
+            "price": "$68,300"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Silverado 2500",
+            "price": "$45,300"
+        },
+        {
+            "year": "2025",
+            "model": "Chevrolet Trax",
+            "price": "$20,400"
+        }
+    ],
+    "Volvo": [
+        {
+            "year": "2024",
+            "model": "Volvo XC90 Recharge Plug-In Hybrid",
+            "price": "$71,900"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo EX30",
+            "price": "$44,900"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo XC40",
+            "price": "$40,650"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo S60",
+            "price": "$42,600"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo V60 Plug-In Hybrid",
+            "price": "$71,250"
+        },
+        {
+            "year": "2024",
+            "model": "Volvo XC40 Recharge Pure Electric",
+            "price": "$52,450"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo XC60 Plug-In Hybrid",
+            "price": "$58,050"
+        },
+        {
+            "year": "2024",
+            "model": "Volvo C40 Recharge Pure Electric",
+            "price": "$53,600"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo XC90 Plug-In Hybrid",
+            "price": "$71,900"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo V60 Cross Country",
+            "price": "$50,300"
+        },
+        {
+            "year": "2024",
+            "model": "Volvo S60 Recharge Plug-In Hybrid",
+            "price": "$51,950"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo S60 Plug-In Hybrid",
+            "price": "$52,100"
+        },
+        {
+            "year": "2024",
+            "model": "Volvo V60 Recharge Plug-In Hybrid",
+            "price": "$71,250"
+        },
+        {
+            "year": "2024",
+            "model": "Volvo XC60 Recharge Plug-In Hybrid",
+            "price": "$57,900"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo S90",
+            "price": "$58,300"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo XC90",
+            "price": "$57,400"
+        },
+        {
+            "year": "2024",
+            "model": "Volvo S90 Recharge Plug-In Hybrid",
+            "price": "$65,650"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo EX40",
+            "price": "$52,500"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo V90 Cross Country",
+            "price": "$59,800"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo XC60",
+            "price": "$47,050"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo S90 Plug-In Hybrid",
+            "price": "$65,650"
+        },
+        {
+            "year": "2025",
+            "model": "Volvo EX90",
+            "price": "$79,995"
+        }
+    ],
+    "Acura": [
+        {
+            "year": "2025",
+            "model": "Acura MDX",
+            "price": "$51,200"
+        },
+        {
+            "year": "2025",
+            "model": "Acura RDX",
+            "price": "$44,700"
+        },
+        {
+            "year": "2025",
+            "model": "Acura TLX",
+            "price": "$45,400"
+        },
+        {
+            "year": "2025",
+            "model": "Acura Integra",
+            "price": "$33,000"
+        },
+        {
+            "year": "2024",
+            "model": "Acura ZDX",
+            "price": "$64,500"
+        }
+    ],
+    "Lincoln": [
+        {
+            "year": "2025",
+            "model": "Lincoln Navigator L",
+            "price": "$102,985"
+        },
+        {
+            "year": "2025",
+            "model": "Lincoln Nautilus",
+            "price": "$51,890"
+        },
+        {
+            "year": "2025",
+            "model": "Lincoln Navigator",
+            "price": "$99,995"
+        },
+        {
+            "year": "2025",
+            "model": "Lincoln Corsair",
+            "price": "$39,485"
+        },
+        {
+            "year": "2025",
+            "model": "Lincoln Aviator",
+            "price": "$57,530"
+        }
+    ],
+    "Cadillac": [
+        {
+            "year": "2025",
+            "model": "Cadillac LYRIQ",
+            "price": "$58,595"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac XT4",
+            "price": "$40,795"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac CT4",
+            "price": "$34,995"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac CT4-V",
+            "price": "$47,295"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac CT5",
+            "price": "$47,595"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac XT5",
+            "price": "$44,295"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac Escalade IQ",
+            "price": "$127,700"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac OPTIQ",
+            "price": "$52,895"
+        },
+        {
+            "year": "2026",
+            "model": "Cadillac VISTIQ",
+            "price": "$77,395"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac CT5-V",
+            "price": "$56,995"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac Escalade ESV",
+            "price": "$90,595"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac Escalade",
+            "price": "$87,595"
+        },
+        {
+            "year": "2025",
+            "model": "Cadillac XT6",
+            "price": "$49,195"
+        }
+    ],
+    "Bmw": [
+        {
+            "year": "2025",
+            "model": "BMW 530",
+            "price": "$58,700"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M235 Gran Coupe",
+            "price": "$49,500"
+        },
+        {
+            "year": "2025",
+            "model": "BMW ALPINA XB7",
+            "price": "$152,400"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X2",
+            "price": "$42,850"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M850 Gran Coupe",
+            "price": "$107,300"
+        },
+        {
+            "year": "2024",
+            "model": "BMW X3 M",
+            "price": "$75,500"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X1",
+            "price": "$41,350"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M340",
+            "price": "$60,200"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M8 Gran Coupe",
+            "price": "$140,000"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 740",
+            "price": "$97,300"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X4 M",
+            "price": "$79,100"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X5",
+            "price": "$66,300"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M4",
+            "price": "$79,700"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X5 PHEV",
+            "price": "$73,800"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X4",
+            "price": "$55,300"
+        },
+        {
+            "year": "2025",
+            "model": "BMW i4 Gran Coupe",
+            "price": "$52,800"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M2",
+            "price": "$65,500"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 330",
+            "price": "$45,950"
+        },
+        {
+            "year": "2025",
+            "model": "BMW ALPINA B8 Gran Coupe",
+            "price": "$151,500"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 228 Gran Coupe",
+            "price": "$41,600"
+        },
+        {
+            "year": "2024",
+            "model": "BMW 330e",
+            "price": "$45,600"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X6 M",
+            "price": "$132,100"
+        },
+        {
+            "year": "2025",
+            "model": "BMW i7",
+            "price": "$105,700"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M3",
+            "price": "$76,000"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X6",
+            "price": "$75,100"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M850",
+            "price": "$107,300"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X3",
+            "price": "$49,950"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M240",
+            "price": "$50,600"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 840",
+            "price": "$91,700"
+        },
+        {
+            "year": "2025",
+            "model": "BMW iX",
+            "price": "$87,250"
+        },
+        {
+            "year": "2025",
+            "model": "BMW i5",
+            "price": "$67,100"
+        },
+        {
+            "year": "2025",
+            "model": "BMW XM",
+            "price": "$160,500"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 430 Gran Coupe",
+            "price": "$49,650"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 540",
+            "price": "$65,800"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X5 M",
+            "price": "$127,200"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M440 Gran Coupe",
+            "price": "$63,200"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 750e",
+            "price": "$108,000"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M440",
+            "price": "$64,850"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M5",
+            "price": "$119,500"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 760",
+            "price": "$122,400"
+        },
+        {
+            "year": "2025",
+            "model": "BMW X7",
+            "price": "$84,300"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 230",
+            "price": "$39,600"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 430",
+            "price": "$51,150"
+        },
+        {
+            "year": "2025",
+            "model": "BMW M8",
+            "price": "$138,800"
+        },
+        {
+            "year": "2025",
+            "model": "BMW 840 Gran Coupe",
+            "price": "$91,700"
+        },
+        {
+            "year": "2025",
+            "model": "BMW Z4",
+            "price": "$54,500"
+        }
+    ],
+    "Mclaren": [
+        {
+            "year": "2025",
+            "model": "McLaren Artura",
+            "price": "$249,100"
+        },
+        {
+            "year": "2025",
+            "model": "McLaren 750S",
+            "price": "$312,585"
+        },
+        {
+            "year": "2025",
+            "model": "McLaren GTS",
+            "price": "$219,400"
+        }
+    ],
+    "Ineos": [
+        {
+            "year": "2025",
+            "model": "INEOS Grenadier Quartermaster",
+            "price": "$86,900"
+        },
+        {
+            "year": "2025",
+            "model": "INEOS Grenadier",
+            "price": "$75,100"
+        }
+    ],
+    "Porsche": [
+        {
+            "year": "2025",
+            "model": "Porsche Panamera",
+            "price": "$102,800"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche 718 Boxster",
+            "price": "$74,900"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche 911",
+            "price": "$120,100"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Macan",
+            "price": "$62,900"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Panamera E-Hybrid",
+            "price": "$115,500"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Macan Electric",
+            "price": "$78,800"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Cayenne E-Hybrid Coupe",
+            "price": "$101,200"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Taycan",
+            "price": "$99,400"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Taycan Cross Turismo",
+            "price": "$111,100"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Cayenne E-Hybrid",
+            "price": "$97,200"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche Cayenne",
+            "price": "$84,700"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche 718 Spyder",
+            "price": "$164,200"
+        },
+        {
+            "year": "2025",
+            "model": "Porsche 718 Cayman",
+            "price": "$72,800"
+        }
+    ],
+    "Kia": [
+        {
+            "year": "2025",
+            "model": "Kia Sportage",
+            "price": "$27,390"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Sportage Hybrid",
+            "price": "$28,790"
+        },
+        {
+            "year": "2025",
+            "model": "Kia K5",
+            "price": "$27,190"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Niro",
+            "price": "$26,990"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Niro EV",
+            "price": "$39,600"
+        },
+        {
+            "year": "2025",
+            "model": "Kia K4",
+            "price": "$21,990"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Sorento",
+            "price": "$31,990"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Sorento Plug-In Hybrid",
+            "price": "$47,990"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Niro Plug-In Hybrid",
+            "price": "$34,490"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Carnival",
+            "price": "$36,800"
+        },
+        {
+            "year": "2024",
+            "model": "Kia EV6",
+            "price": "$42,600"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Soul",
+            "price": "$20,490"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Telluride",
+            "price": "$36,390"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Carnival Hybrid",
+            "price": "$40,800"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Seltos",
+            "price": "$24,690"
+        },
+        {
+            "year": "2025",
+            "model": "Kia EV9",
+            "price": "$54,900"
+        },
+        {
+            "year": "2024",
+            "model": "Kia Forte",
+            "price": "$19,990"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Sportage Plug-In Hybrid",
+            "price": "$39,890"
+        },
+        {
+            "year": "2025",
+            "model": "Kia Sorento Hybrid",
+            "price": "$38,690"
+        }
+    ],
+    "Lexus": [
+        {
+            "year": "2024",
+            "model": "Lexus UX 250h",
+            "price": "$35,540"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus LC 500",
+            "price": "$99,750"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus RZ 450e",
+            "price": "$47,500"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus ES 350",
+            "price": "$42,040"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus RX 450h+",
+            "price": "$71,260"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus LS 500",
+            "price": "$80,335"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus ES 300h",
+            "price": "$43,440"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus IS 500",
+            "price": "$59,420"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus IS 350",
+            "price": "$43,760"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus LC 500h",
+            "price": "$102,900"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus NX 450h+",
+            "price": "$61,240"
+        },
+        {
+            "year": "2024",
+            "model": "Lexus RC 300",
+            "price": "$44,770"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus RX 500h",
+            "price": "$64,800"
+        },
+        {
+            "year": "2024",
+            "model": "Lexus RC 350",
+            "price": "$47,700"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus TX 350",
+            "price": "$55,140"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus NX 250",
+            "price": "$40,965"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus UX 300h",
+            "price": "$36,540"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus RX 350h",
+            "price": "$51,425"
+        },
+        {
+            "year": "2024",
+            "model": "Lexus RC F",
+            "price": "$67,145"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus RX 350",
+            "price": "$49,125"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus RZ 300e",
+            "price": "$42,800"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus NX 350h",
+            "price": "$45,425"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus LS 500h",
+            "price": "$115,210"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus LX 700h",
+            "price": "$114,000"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus LX 600",
+            "price": "$105,500"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus GX 550",
+            "price": "$63,935"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus TX 500h",
+            "price": "$68,660"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus IS 300",
+            "price": "$40,435"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus NX 350",
+            "price": "$44,725"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus TX 550h+",
+            "price": "$77,210"
+        },
+        {
+            "year": "2025",
+            "model": "Lexus ES 250",
+            "price": "$42,040"
+        }
+    ],
+    "Hyundai": [
+        {
+            "year": "2025",
+            "model": "Hyundai Santa Fe",
+            "price": "$34,200"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Sonata Hybrid",
+            "price": "$31,150"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Venue",
+            "price": "$20,100"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Tucson Hybrid",
+            "price": "$33,365"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Elantra",
+            "price": "$22,025"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Elantra HEV",
+            "price": "$25,350"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai IONIQ 5",
+            "price": "$42,500"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Elantra N",
+            "price": "$34,250"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Tucson",
+            "price": "$28,605"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Tucson Plug-In Hybrid",
+            "price": "$39,630"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai IONIQ 6",
+            "price": "$37,750"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Sonata",
+            "price": "$26,800"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai IONIQ 5 N",
+            "price": "$66,100"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Santa Fe HEV",
+            "price": "$37,700"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Kona",
+            "price": "$24,450"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Palisade",
+            "price": "$37,100"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Santa Cruz",
+            "price": "$28,650"
+        },
+        {
+            "year": "2025",
+            "model": "Hyundai Kona EV",
+            "price": "$32,875"
+        }
+    ],
+    "Ferrari": [
+        {
+            "year": "2024",
+            "model": "Ferrari Roma",
+            "price": "$243,358"
+        },
+        {
+            "year": "2025",
+            "model": "Ferrari Purosangue",
+            "price": "$428,686"
+        },
+        {
+            "year": "2025",
+            "model": "Ferrari SF90 Spider",
+            "price": "$590,000"
+        },
+        {
+            "year": "2024",
+            "model": "Ferrari SF90 Stradale",
+            "price": "$524,814"
+        },
+        {
+            "year": "2024",
+            "model": "Ferrari 812 GTS",
+            "price": "$429,815"
+        },
+        {
+            "year": "2024",
+            "model": "Ferrari Roma Spider",
+            "price": "$277,970"
+        },
+        {
+            "year": "2025",
+            "model": "Ferrari 296 GTS",
+            "price": "$376,000"
+        },
+        {
+            "year": "2025",
+            "model": "Ferrari 296 GTB",
+            "price": "$343,000"
+        }
+    ],
+    "Honda": [
+        {
+            "year": "2025",
+            "model": "Honda CR-V",
+            "price": "$30,100"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Passport",
+            "price": "$42,400"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Civic Hybrid",
+            "price": "$28,950"
+        },
+        {
+            "year": "2024",
+            "model": "Honda Prologue",
+            "price": "$47,400"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Civic Type R",
+            "price": "$45,895"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Accord",
+            "price": "$28,295"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Accord Hybrid",
+            "price": "$33,655"
+        },
+        {
+            "year": "2025",
+            "model": "Honda CR-V Hybrid",
+            "price": "$34,650"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Odyssey",
+            "price": "$42,220"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Ridgeline",
+            "price": "$40,150"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Pilot",
+            "price": "$40,200"
+        },
+        {
+            "year": "2025",
+            "model": "Honda HR-V",
+            "price": "$25,400"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Civic",
+            "price": "$24,250"
+        },
+        {
+            "year": "2025",
+            "model": "Honda Civic Si",
+            "price": "$30,250"
+        }
+    ],
+    "Nissan": [
+        {
+            "year": "2025",
+            "model": "Nissan Altima",
+            "price": "$27,000"
+        },
+        {
+            "year": "2024",
+            "model": "Nissan Titan XD",
+            "price": "$52,850"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Rogue",
+            "price": "$29,230"
+        },
+        {
+            "year": "2024",
+            "model": "Nissan Versa",
+            "price": "$16,680"
+        },
+        {
+            "year": "2024",
+            "model": "Nissan Z",
+            "price": "$42,970"
+        },
+        {
+            "year": "2024",
+            "model": "Nissan Titan",
+            "price": "$46,690"
+        },
+        {
+            "year": "2024",
+            "model": "Nissan ARIYA",
+            "price": "$39,590"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Sentra",
+            "price": "$21,590"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Armada",
+            "price": "$56,520"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Frontier",
+            "price": "$32,050"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Kicks",
+            "price": "$21,830"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Leaf",
+            "price": "$28,140"
+        },
+        {
+            "year": "2024",
+            "model": "Nissan GT-R",
+            "price": "$121,090"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Pathfinder",
+            "price": "$37,070"
+        },
+        {
+            "year": "2025",
+            "model": "Nissan Murano",
+            "price": "$40,470"
+        }
+    ]
+}
