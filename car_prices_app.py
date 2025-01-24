@@ -3,6 +3,10 @@ import json
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objs as go
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Load environment variables from .env file
 
 # Page Configuration
 st.set_page_config(
@@ -108,16 +112,19 @@ def main():
 
     # --- Visualizations ---
     if not filtered_df.empty:
-        # Price Distribution Boxplot
-        st.subheader("Price Distribution Across Brands")
+        # Price Distribution Boxplot (Alphabetical Order)
+        st.subheader("Price Distribution Across Brands (Alphabetical Order)")
+        # Sort the DataFrame by 'Brand' alphabetically before plotting
+        sorted_filtered_df_box = filtered_df.sort_values(by="Brand")
         fig_box = px.box(
-            filtered_df,
+            sorted_filtered_df_box,
             x="Brand",
             y="Price",
-            title="Automotive Price Ranges by Brand",
+            title="Automotive Price Ranges by Brand (Alphabetical Order)",
             labels={"Price": "Price (USD)"},
             color="Brand",
             color_discrete_sequence=px.colors.qualitative.Pastel,
+            category_orders={"Brand": sorted_filtered_df_box["Brand"].unique()},
         )
         fig_box.update_layout(xaxis_tickangle=-45, title_font_size=16, title_x=0.5)
         st.plotly_chart(fig_box, use_container_width=True)
