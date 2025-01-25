@@ -1,100 +1,28 @@
-# Automotive Market Price Analytics
+# 🚗 Smart Car Shopping Starts Here!
 
-A comprehensive web application for analyzing and visualizing automotive market prices across different brands and models. This project combines web scraping capabilities with interactive data visualization to provide insights into car pricing trends.
+Your go-to tool for analyzing car prices! Compare brands, track trends, and find the best deals.
 
-## Project Overview
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://carshopping.streamlit.app)
 
-This application consists of three main components:
+## 🚀 Features
 
-1. **Data Collection (scraper_module.py)**
-   - Scrapes car model and price data from cars.com
-   - Uses Oxylabs proxy for reliable data collection
-   - Supports multiple car brands and models
-   - Saves raw data in JSON format
+- **Brand Comparison**: Analyze price variations across different car brands.
+- **Brand Comparison**: See how prices vary across different car brands.
+- **Interactive Filters**: Narrow your search by brand, year, and price range.
+- **Price Visuals**: Interactive charts show price trends and distributions.
+- **Key Stats**: Get a quick view of average prices and more for each brand.
 
-2. **Data Processing (main_script.py)**
-   - Processes the scraped data from individual JSON files
-   - Combines data from all brands into a single comprehensive dataset
-   - Handles data cleaning and formatting
-   - Generates a consolidated complete.json file
+## 🎯 Perfect For
 
-3. **Interactive Dashboard (car_prices_app.py)**
-   - Built with Streamlit for an interactive user interface
-   - Features multiple visualization types:
-     * Price distribution boxplots
-     * Average price comparisons
-     * Brand-wise price analysis
-     * Detailed model information
-   - Includes interactive filters for:
-     * Brand selection
-     * Year range
-     * Price range
+- Car buyers comparing different makes and models
+- People tracking market trends for specific car types
+- Anyone looking for the best deal on a new or used car
+- People that need a visual representation of car prices
 
-## Features
+## 📱 Easy Access
 
-- **Multi-brand Analysis**: Compare prices across different automotive brands
-- **Interactive Filtering**: Filter data by brand, year, and price range
-- **Visual Analytics**: Multiple visualization types for price analysis
-- **Detailed Statistics**: View comprehensive price statistics for each brand
-- **Responsive Design**: Wide layout for better visualization
+Use this tool on any device - phone, tablet, or computer. Enjoy a smooth experience on any screen.
 
-## Installation
+---
 
-1. Clone the repository
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Set up environment variables in a .env file:
-   - USERNAME (Oxylabs username)
-   - PASSWORD (Oxylabs password)
-
-## Usage
-
-1. **Data Collection**:
-   ```bash
-   python scraper_module.py
-   ```
-
-2. **Data Processing**:
-   ```bash
-   python main_script.py
-   ```
-
-3. **Launch Dashboard**:
-   ```bash
-   streamlit run car_prices_app.py
-   ```
-
-## Data Structure
-
-The application uses a hierarchical data structure:
-- Individual brand data stored in JSON files
-- Consolidated data in complete.json
-- Processed data includes:
-  * Brand information
-  * Model details
-  * Year of manufacture
-  * Price information
-
-## Technologies Used
-
-- Python
-- Streamlit
-- Plotly
-- BeautifulSoup4
-- Pandas
-- Requests
-- dotenv
-
-## Features
-
-- Real-time data filtering
-- Interactive visualizations
-- Comprehensive price analytics
-- User-friendly interface
-- Responsive design
-
-## Note
-
-This project requires valid Oxylabs credentials for data collection. Ensure you have the necessary credentials in your .env file before running the scraper.
+*Happy car hunting! 🚗*
