@@ -50,7 +50,8 @@ def load_car_data(file_path):
 
 
 def main():
-    st.title("Shop For Cars (2025)")
+    st.title("Shop For Cars (2025) 🚗")
+    st.subheader("What's your next car?")
 
     # Load Data
     car_df = load_car_data("complete.json")
