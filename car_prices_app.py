@@ -31,17 +31,14 @@ def load_car_data(file_path):
                         "Brand": brand.replace("_", " ").title(),
                         "Year": int(model_info["year"]),
                         "Model": model_info["model"],
-                        "Price_str": model_info["price"],
+                        "Price": model_info["price"],
                     }
                 )
 
         car_df = pd.DataFrame(car_list)
 
         # Clean price data and convert to numeric
-        car_df["Price"] = (
-            car_df["Price_str"].replace({r"\$": "", ",": ""}, regex=True).astype(float)
-        )  # Fixed SyntaxWarning using raw string
-        car_df = car_df.drop("Price_str", axis=1)
+        car_df["Price"] = car_df["Price"].astype(float)
 
         return car_df
 
@@ -61,42 +58,43 @@ def main():
         return
 
     # --- Filters ---
-    col1, col2, col3 = st.columns([2, 1, 1])
+    with st.expander("Filter Options", expanded=True):
+        col1, col2, col3 = st.columns([2, 1, 1])
 
-    with col1:
-        # Brand Multiselect - Now defaults to all if none selected
-        available_brands = sorted(car_df["Brand"].unique())
-        selected_brands = st.multiselect(
-            "Filter by Brand (Leave empty to select all)",
-            available_brands,
-            default=[],  # Default is now an empty list
-        )
+        with col1:
+            # Brand Multiselect - Now defaults to all if none selected
+            available_brands = sorted(car_df["Brand"].unique())
+            selected_brands = st.multiselect(
+                "Filter by Brand (Leave empty to select all)",
+                available_brands,
+                default=[],  # Default is now an empty list
+            )
 
-        # If no brands selected, use all brands
-        if not selected_brands:
-            selected_brands = available_brands
+            # If no brands selected, use all brands
+            if not selected_brands:
+                selected_brands = available_brands
 
-    with col2:
-        # Year Range Filter
-        min_year = car_df["Year"].min()
-        max_year = car_df["Year"].max()
-        year_range = st.slider(
-            "Filter by Model Year",
-            min_value=min_year,
-            max_value=max_year,
-            value=(min_year, max_year),
-        )
+        with col2:
+            # Year Range Filter
+            min_year = car_df["Year"].min()
+            max_year = car_df["Year"].max()
+            year_range = st.slider(
+                "Filter by Model Year",
+                min_value=min_year,
+                max_value=max_year,
+                value=(min_year, max_year),
+            )
 
-    with col3:
-        # Price Range Filter
-        min_price = int(car_df["Price"].min())
-        max_price = int(car_df["Price"].max())
-        price_range = st.slider(
-            "Filter by Price Range ($)",
-            min_value=min_price,
-            max_value=max_price,
-            value=(min_price, max_price),
-        )
+        with col3:
+            # Price Range Filter
+            min_price = int(car_df["Price"].min())
+            max_price = int(car_df["Price"].max())
+            price_range = st.slider(
+                "Filter by Price Range ($)",
+                min_value=min_price,
+                max_value=max_price,
+                value=(min_price, max_price),
+            )
 
     # --- Data Filtering ---
     filtered_df = car_df[car_df["Brand"].isin(selected_brands)]
@@ -138,9 +136,7 @@ def main():
             .reset_index(drop=True)
         )
 
-        # Apply price formatting after sorting
-        model_display["Price"] = model_display["Price"].apply(lambda x: f"${x:,.2f}")
-        st.dataframe(model_display, use_container_width=True)
+        st.dataframe(model_display, use_container_width=True, hide_index=True)
 
         # Price Distribution Boxplot (Alphabetical Order)
         st.subheader("Price Distribution by Brand")
@@ -189,15 +185,8 @@ def main():
             "Average Price",
         ]
 
-        def format_currency(x):
-            if isinstance(x, (int, float)):
-                return f"${x:,.2f}"
-            return x
-
-        brand_stats[["Minimum Price", "Maximum Price", "Average Price"]] = brand_stats[
-            ["Minimum Price", "Maximum Price", "Average Price"]
-        ].map(format_currency)
-        st.dataframe(brand_stats, use_container_width=True)
+        # Removed the format_currency function and the mapping
+        st.dataframe(brand_stats.set_index(brand_stats.index), use_container_width=True)
 
     else:
         st.info(

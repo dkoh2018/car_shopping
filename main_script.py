@@ -80,7 +80,7 @@ if USERNAME and PASSWORD:  # Check if USERNAME and PASSWORD are loaded
                                     parts = model_year_model_name.split(
                                         " ", 1
                                     )  # Split at the first space
-                                    model_year = (
+                                    model_year_str = (  # Renamed to model_year_str
                                         parts[0] if parts else "Year N/A"
                                     )  # Year is the first part
                                     model_name = (
@@ -92,17 +92,45 @@ if USERNAME and PASSWORD:  # Check if USERNAME and PASSWORD are loaded
                                     price_element = item.find(
                                         "div", class_="new-car-model-card-price"
                                     )
-                                    price = (
+                                    price_str = (  # Renamed to price_str
                                         price_element.text.strip()
                                         if price_element
                                         else "Price not found"
                                     )
 
                                     car_data = {
-                                        "year": model_year,
+                                        "year": model_year_str,  # Initially string
                                         "model": model_name,
-                                        "price": price,
+                                        "price": price_str,  # Initially string
                                     }  # Car data dict
+
+                                    # Convert year to integer
+                                    try:
+                                        car_data["year"] = int(car_data["year"])
+                                    except ValueError:
+                                        print(
+                                            f"Warning: Could not convert year '{car_data['year']}' to integer for model '{model_name}'. Keeping as string."
+                                        )
+                                        # If conversion fails, it remains as string
+
+                                    # Convert price to integer, removing '$' and ','
+                                    if car_data["price"] != "Price not found":
+                                        price_value = (
+                                            car_data["price"]
+                                            .replace("$", "")
+                                            .replace(",", "")
+                                        )
+                                        try:
+                                            car_data["price"] = int(price_value)
+                                        except ValueError:
+                                            print(
+                                                f"Warning: Could not convert price '{car_data['price']}' to integer for model '{model_name}'. Keeping as string."
+                                            )
+                                            # If conversion fails, it remains as string
+                                    else:
+                                        car_data["price"] = (
+                                            None  # Or keep "Price not found" as string, or 0, depending on desired behavior
+                                        )
 
                                     company_name = (
                                         make.capitalize()
