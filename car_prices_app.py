@@ -9,9 +9,7 @@ import os
 load_dotenv()  # Load environment variables from .env file
 
 # Page Configuration
-st.set_page_config(
-    page_title="Automotive Market Price Analytics", page_icon="🚗", layout="wide"
-)
+st.set_page_config(page_title="Shop For Cars (2025)", page_icon="🚗", layout="wide")
 
 
 # --- Load and Preprocess Data ---
@@ -55,7 +53,7 @@ def load_car_data(file_path):
 
 
 def main():
-    st.title("Automotive Market Price Analytics")
+    st.title("Shop For Cars (2025)")
 
     # Load Data
     car_df = load_car_data("complete.json")
@@ -69,7 +67,7 @@ def main():
         # Brand Multiselect - Now defaults to all if none selected
         available_brands = sorted(car_df["Brand"].unique())
         selected_brands = st.multiselect(
-            "Filter Automotive Brands (Leave empty to select all)",
+            "Filter by Brand (Leave empty to select all)",
             available_brands,
             default=[],  # Default is now an empty list
         )
@@ -83,7 +81,7 @@ def main():
         min_year = car_df["Year"].min()
         max_year = car_df["Year"].max()
         year_range = st.slider(
-            "Model Year Range",
+            "Filter by Model Year",
             min_value=min_year,
             max_value=max_year,
             value=(min_year, max_year),
@@ -94,7 +92,7 @@ def main():
         min_price = int(car_df["Price"].min())
         max_price = int(car_df["Price"].max())
         price_range = st.slider(
-            "Price Range ($)",
+            "Filter by Price Range ($)",
             min_value=min_price,
             max_value=max_price,
             value=(min_price, max_price),
@@ -113,11 +111,11 @@ def main():
     # --- Visualizations ---
     if not filtered_df.empty:
         # Detailed Model Information (Moved to Top)
-        st.subheader("Filtered Vehicle Models")
+        st.subheader("Vehicle Models")
 
         # Add sorting option for Price
         sort_by_price = st.radio(
-            "Sort Order by Price",
+            "Sort by Price",
             options=["Ascending", "Descending"],
             horizontal=True,
             index=1,  # Set Descending as default
@@ -145,14 +143,14 @@ def main():
         st.dataframe(model_display, use_container_width=True)
 
         # Price Distribution Boxplot (Alphabetical Order)
-        st.subheader("Price Distribution Across Brands (Alphabetical Order)")
+        st.subheader("Price Distribution by Brand")
         # Sort the DataFrame by 'Brand' alphabetically before plotting
         sorted_filtered_df_box = filtered_df.sort_values(by="Brand")
         fig_box = px.box(
             sorted_filtered_df_box,
             x="Brand",
             y="Price",
-            title="Automotive Price Ranges by Brand (Alphabetical Order)",
+            title="Price Ranges by Brand",
             labels={"Price": "Price (USD)"},
             color="Brand",
             color_discrete_sequence=px.colors.qualitative.Pastel,
@@ -162,7 +160,7 @@ def main():
         st.plotly_chart(fig_box, use_container_width=True)
 
         # Average Price Bar Chart
-        st.subheader("Average Price Comparison")
+        st.subheader("Average Price by Brand")
         avg_price_by_brand = (
             filtered_df.groupby("Brand")["Price"].mean().sort_values(ascending=False)
         )
@@ -170,7 +168,7 @@ def main():
         fig_bar = px.bar(
             x=avg_price_by_brand.index,
             y=avg_price_by_brand.values,
-            title="Mean Automotive Prices by Brand",
+            title="Average Prices by Brand",
             labels={"x": "Automotive Brand", "y": "Average Price (USD)"},
             color=avg_price_by_brand.index,
             color_discrete_sequence=px.colors.qualitative.Pastel,
@@ -179,7 +177,7 @@ def main():
         st.plotly_chart(fig_bar, use_container_width=True)
 
         # Brand-wise Price Summary (Maximized)
-        st.subheader("Automotive Brand Price Analysis")
+        st.subheader("Brand Price Analysis")
         brand_stats = filtered_df.groupby("Brand")["Price"].agg(
             ["count", "min", "max", "mean"]
         )
