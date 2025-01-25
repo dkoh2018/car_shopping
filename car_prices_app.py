@@ -170,7 +170,7 @@ def main():
             color=avg_price_by_brand.index,
             color_discrete_sequence=px.colors.qualitative.Pastel,
         )
-        fig_bar.update_layout(yaxis_tickformat="$.2f", title_font_size=16, title_x=0.5)
+        fig_bar.update_layout(yaxis_tickformat="$.0f", title_font_size=16, title_x=0.5)
         st.plotly_chart(fig_bar, use_container_width=True)
 
         # Brand-wise Price Summary (Maximized)
@@ -185,6 +185,7 @@ def main():
             "Maximum Price",
             "Average Price",
         ]
+        brand_stats["Average Price"] = brand_stats["Average Price"].round(0)
 
         # Removed the format_currency function and the mapping
         st.dataframe(brand_stats.set_index(brand_stats.index), use_container_width=True)
