@@ -701,6 +701,23 @@
             "price": "$32,980"
         }
     ],
+    "Rolls_royce": [
+        {
+            "year": "2024",
+            "model": "Rolls-Royce Spectre",
+            "price": "$420,000"
+        },
+        {
+            "year": "2024",
+            "model": "Rolls-Royce Ghost",
+            "price": "$413,500"
+        },
+        {
+            "year": "2024",
+            "model": "Rolls-Royce Cullinan",
+            "price": "$450,500"
+        }
+    ],
     "Fiat": [
         {
             "year": "2024",
@@ -2062,6 +2079,293 @@
             "year": "2025",
             "model": "Kia Sorento Hybrid",
             "price": "$38,690"
+        }
+    ],
+    "Mercedes_benz": [
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz CLA 250",
+            "price": "$44,400"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GLE 53",
+            "price": "$89,200"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLA 250",
+            "price": "$43,000"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG EQS",
+            "price": "$147,550"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz S-Class",
+            "price": "$117,750"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz Maybach S 580",
+            "price": "$198,300"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GLC 43",
+            "price": "$67,100"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLE 350",
+            "price": "$61,850"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQE 350+",
+            "price": "$74,900"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz Maybach GLS 600",
+            "price": "$178,450"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLE 450",
+            "price": "$71,350"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG C 63",
+            "price": "$86,050"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GLB 35",
+            "price": "$60,100"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GLS 63",
+            "price": "$149,500"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQE 350",
+            "price": "$77,900"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLS 580",
+            "price": "$114,800"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GT 53",
+            "price": "$109,450"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz Sprinter 3500",
+            "price": "$52,800"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GT 63",
+            "price": "$153,350"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz CLE 450",
+            "price": "$67,450"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLE 580",
+            "price": "$89,200"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQE 500",
+            "price": "$85,900"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG CLE 53",
+            "price": "$74,300"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz GLE 450 Plug-In Hybrid",
+            "price": "$69,500"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz eSprinter 2500",
+            "price": "$61,180"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz AMG SL 55",
+            "price": "$144,500"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz CLE 300",
+            "price": "$58,000"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLC 350e",
+            "price": "$59,900"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLC 300",
+            "price": "$49,250"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GT 55",
+            "price": "$137,550"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz Maybach S 680",
+            "price": "$234,300"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GLA 35",
+            "price": "$58,050"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GLE 63",
+            "price": "$130,800"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz C-Class",
+            "price": "$48,450"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG CLA 45",
+            "price": "$67,050"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQS 450",
+            "price": "$107,400"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG CLA 35",
+            "price": "$56,100"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLS 450",
+            "price": "$89,200"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz AMG SL 43",
+            "price": "$111,800"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG EQE",
+            "price": "$106,900"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GLC 63",
+            "price": "$86,050"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG G 63",
+            "price": "$186,100"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz E-Class",
+            "price": "$62,450"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz GLB 250",
+            "price": "$45,800"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG E 53",
+            "price": "$88,000"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG C 43",
+            "price": "$62,500"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQS 450+",
+            "price": "$104,400"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQB 350",
+            "price": "$60,650"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz G-Class",
+            "price": "$148,250"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz AMG SL 63",
+            "price": "$187,000"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQB 250",
+            "price": "$53,050"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQS 580",
+            "price": "$127,350"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz AMG GT 43",
+            "price": "$98,950"
+        },
+        {
+            "year": "2024",
+            "model": "Mercedes-Benz Sprinter 4500",
+            "price": "$61,000"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz Sprinter 2500",
+            "price": "$56,930"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz Sprinter 3500XD",
+            "price": "$59,860"
+        },
+        {
+            "year": "2025",
+            "model": "Mercedes-Benz EQB 300",
+            "price": "$57,000"
         }
     ],
     "Lexus": [

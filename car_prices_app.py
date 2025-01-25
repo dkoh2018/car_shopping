@@ -165,8 +165,13 @@ def main():
 
         # Detailed Model Information
         st.subheader("Filtered Vehicle Models")
-        model_display = filtered_df[["Brand", "Year", "Model", "Price"]].reset_index(
-            drop=True
+        model_display = (
+            filtered_df[["Brand", "Year", "Model", "Price"]]
+            .sort_values(
+                by=["Price", "Brand", "Year", "Model"],
+                ascending=[False, True, True, True],
+            )  # Added Price to sort and set ascending=False for Price
+            .reset_index(drop=True)
         )
         model_display["Price"] = model_display["Price"].apply(lambda x: f"${x:,.2f}")
         st.dataframe(model_display, use_container_width=True)
