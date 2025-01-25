@@ -1,4 +1,4 @@
-# 🚗 Smart Car Shopping Starts Here!
+# 🚗 Car Shopping Starts Here!
 
 Your go-to tool for analyzing car prices! Compare brands, track trends, and find the best deals.
 
