@@ -2,7 +2,7 @@
 
 Your go-to tool for analyzing car prices! Compare brands, track trends, and find the best deals.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://carshopping.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shopcars.streamlit.app)
 
 ## 🚀 Features
 
