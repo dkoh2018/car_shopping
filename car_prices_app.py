@@ -112,6 +112,38 @@ def main():
 
     # --- Visualizations ---
     if not filtered_df.empty:
+        # Detailed Model Information (Moved to Top)
+        st.subheader("Filtered Vehicle Models")
+
+        # Add sorting option for Price
+        sort_by_price = st.radio(
+            "Sort Order by Price",
+            options=["Ascending", "Descending"],
+            horizontal=True,
+            index=1,  # Set Descending as default
+        )
+
+        # Determine ascending or descending based on sort selection
+        ascending_price = sort_by_price == "Ascending"
+
+        model_display = (
+            filtered_df[["Brand", "Year", "Model", "Price"]]
+            .sort_values(
+                by=["Price", "Brand", "Year", "Model"],
+                ascending=[
+                    ascending_price,
+                    True,
+                    True,
+                    True,
+                ],  # Sort Price based on radio input
+            )
+            .reset_index(drop=True)
+        )
+
+        # Apply price formatting after sorting
+        model_display["Price"] = model_display["Price"].apply(lambda x: f"${x:,.2f}")
+        st.dataframe(model_display, use_container_width=True)
+
         # Price Distribution Boxplot (Alphabetical Order)
         st.subheader("Price Distribution Across Brands (Alphabetical Order)")
         # Sort the DataFrame by 'Brand' alphabetically before plotting
@@ -134,6 +166,7 @@ def main():
         avg_price_by_brand = (
             filtered_df.groupby("Brand")["Price"].mean().sort_values(ascending=False)
         )
+
         fig_bar = px.bar(
             x=avg_price_by_brand.index,
             y=avg_price_by_brand.values,
@@ -142,7 +175,7 @@ def main():
             color=avg_price_by_brand.index,
             color_discrete_sequence=px.colors.qualitative.Pastel,
         )
-        fig_bar.update_layout(title_font_size=16, title_x=0.5)
+        fig_bar.update_layout(yaxis_tickformat="$.2f", title_font_size=16, title_x=0.5)
         st.plotly_chart(fig_bar, use_container_width=True)
 
         # Brand-wise Price Summary (Maximized)
@@ -150,31 +183,23 @@ def main():
         brand_stats = filtered_df.groupby("Brand")["Price"].agg(
             ["count", "min", "max", "mean"]
         )
+
         brand_stats.columns = [
             "Model Count",
             "Minimum Price",
             "Maximum Price",
             "Average Price",
         ]
-        brand_stats = (
-            brand_stats.map(  # Replaced applymap with map to fix FutureWarning
-                lambda x: f"${x:,.2f}" if isinstance(x, float) else x
-            )
-        )
-        st.dataframe(brand_stats, use_container_width=True)
 
-        # Detailed Model Information
-        st.subheader("Filtered Vehicle Models")
-        model_display = (
-            filtered_df[["Brand", "Year", "Model", "Price"]]
-            .sort_values(
-                by=["Price", "Brand", "Year", "Model"],
-                ascending=[False, True, True, True],
-            )  # Added Price to sort and set ascending=False for Price
-            .reset_index(drop=True)
-        )
-        model_display["Price"] = model_display["Price"].apply(lambda x: f"${x:,.2f}")
-        st.dataframe(model_display, use_container_width=True)
+        def format_currency(x):
+            if isinstance(x, (int, float)):
+                return f"${x:,.2f}"
+            return x
+
+        brand_stats[["Minimum Price", "Maximum Price", "Average Price"]] = brand_stats[
+            ["Minimum Price", "Maximum Price", "Average Price"]
+        ].map(format_currency)
+        st.dataframe(brand_stats, use_container_width=True)
 
     else:
         st.info(
