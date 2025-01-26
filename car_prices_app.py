@@ -137,6 +137,9 @@ def main():
             .reset_index(drop=True)
         )
 
+        # Convert Year to a string for display purposes
+        model_display["Year"] = model_display["Year"].astype(str)
+
         st.dataframe(model_display, use_container_width=True, hide_index=True)
 
         # Price Distribution Boxplot (Alphabetical Order)
